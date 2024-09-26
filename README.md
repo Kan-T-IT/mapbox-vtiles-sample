@@ -1,4 +1,5 @@
 # Vector Tile Map Example with Maplibre GL and Mapbox GL
+<img src="./public/header.png" alt="Texto alternativo" width="100%">
 
 This project is a basic example of how to visualize vector tile layers of **lines**, **points**, and **polygons** using **Maplibre GL** and **Mapbox GL**. It demonstrates different styles applied to the layers based on certain filters, such as color changes according to properties like `superficie` (surface) or `estado` (state).
 
