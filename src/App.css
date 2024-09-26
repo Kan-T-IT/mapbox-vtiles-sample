@@ -1,0 +1,64 @@
+
+.App{
+    height: 100vh;
+}
+
+.navBar {
+    background: linear-gradient(135deg, #2E0F3D 0%, #431659 50%, #5A1E75 100%);
+    background-image: url("../public/Hero.png");
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-family: 'Poppins', sans-serif; 
+}
+
+
+.buttonToMap {
+    border-style: solid;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    color: #2e0f3d;
+    border-color: #f53f61;
+    background-color: #f53f61;
+    padding-top: 16px;
+    padding-right: 22px;
+    padding-bottom: 16px;
+    padding-left: 22px;
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 15px;
+    font-size: 0.9375rem;
+    line-height: 1em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    font-family: 'Poppins', sans-serif; 
+    margin: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+    cursor: pointer;
+    transition: all 0.3s ease-in-out; 
+}
+
+
+.buttonToMap:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(10px); 
+    transform: scale(1.1); 
+}
+
+
+.navBar > a {
+    text-decoration: none; 
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif; 
+    color: #fff;
+}
